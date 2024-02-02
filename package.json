@@ -19,7 +19,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "node": "cd dist && node bot/index.js",
+    "start": "cd dist && node bot/index.js",
     "build": "tsc"
   }
 }
