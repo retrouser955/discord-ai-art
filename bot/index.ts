@@ -4,7 +4,7 @@ import { REST } from "@discordjs/rest"
 import { verifyKeyMiddleware } from "discord-interactions"
 import { generateViaWorker } from "../imageGeneration/generate"
 import "dotenv"
-// BUN DEPLOYMENT
+
 // DEFINE REST
 const rest = new REST({
     version: "10"
