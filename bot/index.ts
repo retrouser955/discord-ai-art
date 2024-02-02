@@ -56,3 +56,5 @@ app.post("/interactions", async (req, res) => {
 })
 
 app.listen(3000, () => console.log("Listening for api calls"))
+
+export default app

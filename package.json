@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "cd dist && node bot/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "vercel-build": "echo \"hello\""
   }
 }
