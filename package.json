@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "bun bot/index.ts",
-    "startnode": "node dist/bot/index.js"
+    "startnode": "node dist/bot/index.js",
+    "build": "yarn"
   }
 }
