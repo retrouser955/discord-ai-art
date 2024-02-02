@@ -20,6 +20,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/bot/index.js"
+    "start": "bun bot/index.ts",
+    "startnode": "node dist/bot/index.js"
   }
 }
