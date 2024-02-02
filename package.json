@@ -19,8 +19,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "start": "bun bot/index.ts",
-    "startnode": "node dist/bot/index.js",
-    "build": "yarn"
+    "node": "cd dist && node bot/index.js",
+    "build": "tsc"
   }
 }
